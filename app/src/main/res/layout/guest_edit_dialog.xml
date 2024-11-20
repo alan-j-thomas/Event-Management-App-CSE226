@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="10dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="10dp"
+        android:hint="Menu" />
+
+    <EditText
+        android:id="@+id/editVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="10dp"
+        android:hint="Venue" />
+
+    <EditText
+        android:id="@+id/editEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="10dp"
+        android:hint="Event" />
+</LinearLayout>
